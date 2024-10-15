@@ -1,3 +1,5 @@
+#automação de cadastro de produtos
+
 import pyautogui
 import time
 
