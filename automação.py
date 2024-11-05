@@ -1,4 +1,4 @@
-#automação de cadastro de produtos
+#automação de cadastro de produtos de um LInk externo
 
 import pyautogui
 import time
