@@ -16,7 +16,7 @@ pyautogui.press("enter")
 
 # entrar no link 
 pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
-pyautogui.press('enter')
+pyautogui.press("enter")
 time.sleep(3)
 
 
