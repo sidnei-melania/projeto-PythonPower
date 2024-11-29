@@ -48,13 +48,13 @@ for linha in tabela.index:
     # passar para o proximo campo
     pyautogui.press("tab")
     # preencher o campo
-    pyautogui.write(str(tabela.loc[linha, "marca"]))
+    pyautogui.write(str(tabela.loc[linha, 'marca']))
     pyautogui.press("tab")
-    pyautogui.write(str(tabela.loc[linha, "tipo"]))
+    pyautogui.write(str(tabela.loc[linha, 'tipo']))
     pyautogui.press("tab")
-    pyautogui.write(str(tabela.loc[linha, "categoria"]))
+    pyautogui.write(str(tabela.loc[linha, 'categoria']))
     pyautogui.press("tab")
-    pyautogui.write(str(tabela.loc[linha, "preco_unitario"]))
+    pyautogui.write(str(tabela.loc[linha, 'preco_unitario']))
     pyautogui.press("tab")
     pyautogui.write(str(tabela.loc[linha, "custo"]))
     pyautogui.press("tab")
