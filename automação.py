@@ -10,9 +10,9 @@ import time
 pyautogui.PAUSE = 0.3
 
 # abrir o navegador (chrome, ou o que voce usa)
-pyautogui.press("win")
-pyautogui.write("chrome")
-pyautogui.press("enter")
+pyautogui.press('win')
+pyautogui.write('chrome')
+pyautogui.press('enter')
 
 # entrar no link 
 pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
