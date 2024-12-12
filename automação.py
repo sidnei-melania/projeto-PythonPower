@@ -3,10 +3,10 @@
 import pyautogui
 import time
 
-# pyautogui.write -> escrever texto
-# pyautogui.press -> apertar 1 tecla
-# pyautogui.click -> clicar em algum lugar da tela
-# pyautogui.hotkey -> combinação de teclas
+# pyautogui.write -> comomando para escrever texto
+# pyautogui.press -> comando para apertar 1 tecla
+# pyautogui.click -> comando para clicar em algum lugar da tela
+# pyautogui.hotkey -> comando de combinação de teclas
 pyautogui.PAUSE = 0.3
 
 # abrir o navegador (chrome, ou o que voce usa)
