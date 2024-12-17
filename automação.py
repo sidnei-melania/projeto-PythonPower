@@ -1,4 +1,4 @@
-#automação de cadastro de produtos de um LInk externo
+tra #automação de cadastro de produtos de um LInk externo
 
 import pyautogui
 import time
@@ -14,7 +14,7 @@ pyautogui.press('win')
 pyautogui.write('chrome')
 pyautogui.press('enter')
 
-# entrar no link 
+# entrar no link (Entra no Link da Hashtag)
 pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pyautogui.press("enter")
 time.sleep(3)
