@@ -1,4 +1,4 @@
-tra #automação de cadastro de produtos de um LInk externo
+ #automação de cadastro de produtos de um LInk externo
 
 import pyautogui
 import time
@@ -65,4 +65,4 @@ for linha in tabela.index:
     pyautogui.press("enter") # cadastra o produto (botao enviar)
     # dar scroll de tudo pra cima
     pyautogui.scroll(5000)
-    # Passo 5: Repetir o processo de cadastro até o fim
+    # Passo 5: Repetir o processo de cadastro até o fim do ciclo
