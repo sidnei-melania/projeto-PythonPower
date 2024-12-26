@@ -5,11 +5,11 @@ import time
 
 # pyautogui.write -> comomando para escrever texto em Python
 # pyautogui.press -> comando para apertar 1 tecla em Python
-# pyautogui.click -> comando para clicar em algum lugar da tela
-# pyautogui.hotkey -> comando de combinação de teclas
+# pyautogui.click -> comando para clicar em algum lugar da tela em Python
+# pyautogui.hotkey -> comando de combinação de teclas em Python
 pyautogui.PAUSE = 0.3
 
-# abrir o navegador (chrome, Firefoz, Safira, Opera, ou o que voce usa)
+# abrir o navegador (chrome, Firefoz, Safira, Opera, ou o que voce usa) em Python
 pyautogui.press('win')
 pyautogui.write('chrome')
 pyautogui.press('enter')
