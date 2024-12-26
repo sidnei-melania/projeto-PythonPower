@@ -30,14 +30,14 @@ pyautogui.write("sua senha")
 pyautogui.click(x=955, y=638) # clique no botao de login
 time.sleep(3)
 
-# Passo 3: Importar a base de produtos pra cadastrar
+# Passo 3: Importar a base de produtos pra cadastrar fornecido pelo criador
 import pandas as pd
 
 tabela = pd.read_csv("produtos.csv")
 
 print(tabela)
 
-# Passo 4: Cadastrar um produto
+# Passo 4: Cadastrar um produto da tabela csv
 for linha in tabela.index:
     # clicar no campo de código
     pyautogui.click(x=653, y=294)
