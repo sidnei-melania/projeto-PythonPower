@@ -7,7 +7,7 @@ import time
 # pyautogui.press -> comando para apertar 1 tecla em Python
 # pyautogui.click -> comando para clicar em algum lugar da tela em Python
 # pyautogui.hotkey -> comando de combinação de teclas em Python
-pyautogui.PAUSE = 0.3
+pyautogui.PAUSE = 0.4
 
 # abrir o navegador (chrome, Firefoz, Safira, Opera, ou o que voce usa) em Python
 pyautogui.press('win')
@@ -30,7 +30,7 @@ pyautogui.write("sua senha")
 pyautogui.click(x=955, y=638) # clique no botao de login
 time.sleep(3)
 
-# Passo 3: Importar a base de produtos pra cadastrar fornecido pelo criador
+# Passo 3: Importar a base de produtos pra cadastrar fornecido pelo criador (site)
 import pandas as pd
 
 tabela = pd.read_csv("produtos.csv")
