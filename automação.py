@@ -21,6 +21,7 @@ time.sleep(3)
 
 
 # Passo 2: Fazer login no Link externo
+
 # selecionar o campo de email na tela do Windows
 pyautogui.click(x=685, y=451)
 # escrever o seu email 
@@ -38,6 +39,7 @@ tabela = pd.read_csv("produtos.csv")
 print(tabela)
 
 # Passo 4: Cadastrar um produto da tabela csv
+
 for linha in tabela.index:
     # clicar no campo de código
     pyautogui.click(x=653, y=294)
@@ -64,5 +66,6 @@ for linha in tabela.index:
     pyautogui.press("tab")
     pyautogui.press("enter") # cadastra o produto (botao enviar)
     # dar scroll de tudo pra cima
-    pyautogui.scroll(5000)
+    pyautogui.scroll(5000) 
+ 
     # Passo 5: Repetir o processo de cadastro até o fim do ciclo
