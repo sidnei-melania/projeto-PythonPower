@@ -26,7 +26,7 @@ time.sleep(3)
 pyautogui.click(x=685, y=451)
 # escrever o seu email 
 pyautogui.write("pythonimpressionador@gmail.com")
-pyautogui.press("tab") # passando pro próximo campo
+pyautogui.press("tab") #passando pro próximo campo
 pyautogui.write("sua senha")
 pyautogui.click(x=955, y=638) # clique no botao de login
 time.sleep(3)
@@ -61,6 +61,7 @@ for linha in tabela.index:
     pyautogui.write(str(tabela.loc[linha, "custo"]))
     pyautogui.press("tab")
     obs = tabela.loc[linha, "obs"]
+ 
     if not pd.isna(obs):
         pyautogui.write(str(tabela.loc[linha, "obs"]))
     pyautogui.press("tab")
