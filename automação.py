@@ -3,9 +3,9 @@
 import pyautogui
 import time
 
-# pyautogui.write ->  comomando para escrever texto em Python
-# pyautogui.press ->  comando para apertar 1 tecla em Python
-# pyautogui.click ->  comando para clicar em algum lugar da tela em Python
+# pyautogui.write -> comomando para escrever texto em Python
+# pyautogui.press -> comando para apertar 1 tecla em Python
+# pyautogui.click -> comando para clicar em algum lugar da tela em Python
 # pyautogui.hotkey -> comando de combinação de teclas em Python
 pyautogui.PAUSE = 0.3
 
