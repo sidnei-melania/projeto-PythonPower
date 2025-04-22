@@ -1,6 +1,7 @@
  #automação de cadastro de produtos de um LInk externo
 
 import pyautogui
+
 import time
 
 # pyautogui.write -> comomando para escrever texto em Python
